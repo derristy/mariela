@@ -1,0 +1,155 @@
+@media (max-width: 1200px){
+    .mariela--product-card__first-screen {
+        margin-left: -284px;
+    }
+
+    .mariela--first-screen__container {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 992px){
+    .mariela--product-card__first-screen {
+        margin-left: 0;
+    }
+
+    .mariela--first-screen__container {
+        max-width: 768px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mariela--product-card__first-screen { 
+        margin-top: -250px;
+    }
+
+    .mariela--second-screen__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mariela--product-card__second-screen {
+        margin-top: -230px;
+        margin-right: 0;
+    }
+
+    .mariela--first-screen__cube-decoration {
+        &:before, &:after {
+            display: none;
+        }
+    }
+
+    .mariela--second-about__container .row > div,
+    .mariela--product__container .row > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .mariela--product__container .row {
+        margin-bottom: 20px;
+    }
+
+    .mariela--product {
+        margin: 50px 0;
+    }
+
+    .mariela--second-about__description {
+        font-size: 20px;
+    }
+
+    .mariela--product-card__third-screen {
+        z-index: 3;
+    }
+
+    .mariela--product-card__third-screen {
+        margin-left: -197px;
+    }
+
+    .mariela--feedback__input {
+        &:first-of-type {
+            margin-bottom: 20px;
+        }
+    }
+
+    .mariela--navbar-footer .nav-item {
+        margin-right: 0;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .mariela--first-screen__container {
+        flex-direction: column;
+    }
+
+    .mariela--product-card__second-screen, 
+    .mariela--product-card__first-screen, 
+    .mariela--product-card__third-screen {
+        margin-top: 0;
+        max-width: 100%;
+        padding: 50px;
+        height: auto;
+    }
+
+    .mariela--second-screen__container {
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .mariela--about-description {
+        font-size: 20px;
+    }
+
+    .mariela--first-screen {
+        min-height: 0;
+    }
+
+    .mariela--first-about {
+        margin: 50px 0;
+    }
+
+    .mariela--product-title {
+        font-size: 35px;
+    }
+
+    .mariela--third-screen__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mariela--product-card__third-screen {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px){
+    .mariela--newsletter__form {
+        flex-direction: column;
+        width: calc(100%);
+    }
+
+    .mariela--newsletter__input {
+        padding: 10px 0;
+        
+        &:first-of-type {
+            border-right-style: solid;
+            border-radius: 3px;
+            margin-bottom: 10px;
+        }
+
+        &:last-of-type {
+            border-right-style: solid;
+            border-radius: 3px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .mariela--newsletter__btn {
+        border-radius: 3px;
+    }
+}
