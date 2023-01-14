@@ -41,7 +41,6 @@ gulp.task('sass', function(){
     .pipe(browserSync.stream())
     .pipe(rename('style.min.css'))
     .pipe(cleanCSS())
-    .pipe(sourcemaps.write('/'))
     .pipe(gulp.dest(dirs.build + '/'));
 });
 
