@@ -15,14 +15,12 @@ body {
   position: relative;
 }
 
-.mariela--navbar .navbar-collapse {
-  justify-content: flex-end;
-}
-
 .mariela--navbar {
   padding: 33px 0 24px 0;
 }
-
+.mariela--navbar .navbar-collapse {
+  justify-content: flex-end;
+}
 .mariela--navbar .nav-link {
   color: #B08EAD;
   font-size: 24px;
@@ -32,11 +30,9 @@ body {
 .mariela--navbar .nav-link:hover {
   color: rgb(44, 35, 35);
 }
-
 .mariela--navbar .nav-item {
   margin-right: 40px;
 }
-
 .mariela--navbar .mariela--icon.nav-item {
   margin-right: 0;
   margin-left: 5px;
@@ -46,7 +42,6 @@ body {
   min-height: 817px;
   background: linear-gradient(to bottom, #C9ADC6 55%, #D6BBD3 45%);
 }
-
 .mariela--first-screen__container {
   display: flex;
   width: 100%;
@@ -55,7 +50,6 @@ body {
   padding: 72px 0 70px;
   position: relative;
 }
-
 .mariela--first-screen__cube-decoration::before {
   width: 50px;
   height: 50px;
@@ -75,6 +69,36 @@ body {
   right: 0;
 }
 
+.mariela--product {
+  margin: 75px 0 131px 0;
+}
+.mariela--product__container {
+  width: 100%;
+  max-width: 1183px;
+  margin: 0 auto;
+}
+.mariela--product__container .row {
+  margin-bottom: 54px;
+}
+.mariela--product__container .row:last-child {
+  margin-bottom: 0;
+}
+.mariela--product__title {
+  margin-top: 9px;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #5F4D5D;
+}
+.mariela--product__price {
+  display: block;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 18px;
+  color: #B0B0B0;
+  margin-top: 7px;
+  text-align: center;
+}
 .mariela--product-card {
   background: #B08EAD;
   margin-top: 110px;
@@ -83,11 +107,17 @@ body {
   height: 450px;
   color: #fff;
 }
-
 .mariela--product-card__first-screen {
   margin-left: -127px;
 }
-
+.mariela--product-card__second-screen {
+  margin-right: -42px;
+  padding-right: 71px;
+}
+.mariela--product-card__third-screen {
+  margin-left: -33px;
+  padding: 124px 102px 231px 47px;
+}
 .mariela--product-label {
   font-family: "Roboto";
   font-weight: 400;
@@ -98,13 +128,11 @@ body {
   color: #FFFFFF;
   margin-bottom: 10px;
 }
-
 .mariela--product-title {
   font-size: 45px;
   line-height: 55px;
   margin-bottom: 22px;
 }
-
 .mariela--product-btn {
   font-family: "Roboto";
   font-size: 14px;
@@ -132,7 +160,6 @@ body {
 .mariela--first-about {
   margin: 75px 0;
 }
-
 .mariela--first-about__container {
   width: 100%;
   max-width: 1178px;
@@ -145,7 +172,6 @@ body {
   max-width: 368px;
   margin: 0 10px;
 }
-
 .mariela--about-title {
   font-family: "Roboto";
   font-size: 14px;
@@ -156,7 +182,6 @@ body {
   color: #B99BB6;
   margin-bottom: 13px;
 }
-
 .mariela--about-description {
   max-width: 747px;
   font-size: 26px;
@@ -165,7 +190,6 @@ body {
   color: #5F4D5D;
   margin-bottom: 17px;
 }
-
 .mariela--about-btn {
   display: block;
   background: none;
@@ -186,18 +210,15 @@ body {
   background: #B99BB6;
   color: #fff;
 }
-
 .mariela--about-card__wrapper {
   padding: 23px 0 24px 23px;
 }
-
 .mariela--about-card__title {
   font-size: 25px;
   line-height: 30px;
   color: #FFFFFF;
   margin-bottom: 6px;
 }
-
 .mariela--about-card__btn {
   font-weight: 400;
   font-size: 17px;
@@ -215,7 +236,6 @@ body {
   background: #CEB3CB;
   padding: 75px 0;
 }
-
 .mariela--second-screen__container {
   display: flex;
   flex-direction: row-reverse;
@@ -224,17 +244,11 @@ body {
   margin: 0 auto;
 }
 
-.mariela--product-card__second-screen {
-  margin-right: -42px;
-  padding-right: 71px;
-}
-
 .mariela--second-about__container {
   width: 100%;
   max-width: 1155px;
   margin: 0 auto;
 }
-
 .mariela--second-about__container .row {
   padding: 40px 0;
   border-bottom: 1px solid #D7B7D4;
@@ -246,7 +260,6 @@ body {
   border: 0;
   padding-bottom: 75px;
 }
-
 .mariela--second-about__title {
   font-family: "Roboto";
   font-size: 14px;
@@ -256,7 +269,6 @@ body {
   color: #B99BB6;
   margin-bottom: 1px;
 }
-
 .mariela--second-about__description {
   font-size: 24px;
   line-height: 30px;
@@ -269,70 +281,26 @@ body {
   background: #CEB3CB;
   padding: 75px 0;
 }
-
 .mariela--third-screen__container {
   display: flex;
   width: 100%;
   max-width: 932px;
   margin: 0 auto;
 }
-
-.mariela--product-card__third-screen {
-  margin-left: -33px;
-  padding: 124px 102px 231px 47px;
-}
-
 .mariela--third-screen .img-fluid {
   z-index: 2;
-}
-
-.mariela--product {
-  margin: 75px 0 131px 0;
-}
-
-.mariela--product__container {
-  width: 100%;
-  max-width: 1183px;
-  margin: 0 auto;
-}
-
-.mariela--product__container .row {
-  margin-bottom: 54px;
-}
-.mariela--product__container .row:last-child {
-  margin-bottom: 0;
-}
-
-.mariela--product__title {
-  margin-top: 9px;
-  font-size: 24px;
-  line-height: 30px;
-  text-align: center;
-  color: #5F4D5D;
-}
-
-.mariela--product__price {
-  display: block;
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 18px;
-  color: #B0B0B0;
-  margin-top: 7px;
-  text-align: center;
 }
 
 .mariela--feedback {
   min-height: 568px;
   background: #CEB3CB;
 }
-
 .mariela--feedback__container {
   width: 100%;
   max-width: 963px;
   margin: 0 auto;
   padding: 62px 25px 82px;
 }
-
 .mariela--feedback__title {
   font-family: "Roboto";
   font-size: 14px;
@@ -341,13 +309,11 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
 .mariela--feedback__content {
   font-size: 21px;
   line-height: 30px;
   color: #FFFFFF;
 }
-
 .mariela--feedback__input {
   border: 1px solid #FFFFFF;
   padding: 9px 0 10px 15px;
@@ -362,7 +328,6 @@ body {
   outline: none;
   border-color: rgb(112, 86, 124);
 }
-
 .mariela--feedback__textarea {
   border: 1px solid #FFFFFF;
   padding: 9px 0 10px 15px;
@@ -380,7 +345,6 @@ body {
   outline: none;
   border-color: rgb(112, 86, 124);
 }
-
 .mariela--feedback__btn {
   background: none;
   border: none;
@@ -399,7 +363,6 @@ body {
 .mariela--newsletter {
   padding: 95px 0;
 }
-
 .mariela--newsletter__container {
   display: flex;
   flex-direction: column;
@@ -408,7 +371,6 @@ body {
   max-width: 595px;
   margin: 0 auto;
 }
-
 .mariela--newsletter__title {
   font-family: "Roboto";
   font-size: 14px;
@@ -417,14 +379,12 @@ body {
   text-transform: uppercase;
   color: #B99BB6;
 }
-
 .mariela--newsletter__content {
   font-size: 24px;
   line-height: 30px;
   color: #5F4D5D;
   margin-bottom: 13px;
 }
-
 .mariela--newsletter__input {
   display: block;
   background: none;
@@ -448,7 +408,6 @@ body {
 .mariela--newsletter__input:focus {
   outline: none;
 }
-
 .mariela--newsletter__btn {
   font-size: 18px;
   line-height: 30px;
@@ -462,7 +421,6 @@ body {
 .mariela--newsletter__btn:hover {
   background: #af93ac;
 }
-
 .mariela--newsletter__form {
   display: flex;
 }
@@ -471,14 +429,12 @@ body {
   min-height: 235px;
   background: #D6BBD3;
 }
-
 .mariela--features__container {
   width: 100%;
   max-width: 948px;
   padding-top: 46px;
   margin: 0 auto;
 }
-
 .mariela--features__radius {
   width: 95px;
   height: 95px;
@@ -490,7 +446,6 @@ body {
 .mariela--features__radius:hover img {
   transform: translate(-50%, -50%) rotate(360deg);
 }
-
 .mariela--features__radius img {
   transition: transform 0.5s;
   position: absolute;
@@ -498,14 +453,12 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .mariela--features__title {
   font-size: 22px;
   line-height: 30px;
   color: #FFFFFF;
   text-align: center;
 }
-
 .mariela--features__content {
   font-family: "Roboto";
   font-size: 16px;
@@ -518,13 +471,11 @@ body {
   padding: 40px 0;
   background: #C9ADC6;
 }
-
 .mariela--navbar-footer .nav-link {
   color: #fff;
   font-size: 21px;
   line-height: 21px;
 }
-
 .mariela--navbar-footer .nav-item {
   margin-right: 35px;
 }
@@ -546,7 +497,6 @@ body {
   display: none;
   z-index: 100;
 }
-
 .mariela--scroll-up.show {
   display: block;
 }
