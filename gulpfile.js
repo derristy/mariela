@@ -163,12 +163,12 @@ gulp.task('copyFonts', function() {
 });
 
 gulp.task('copyCSS', function() {
-    return gulp.src(dirs.source + '/assets/css/**/*.css')
+    return gulp.src(dirs.source + '/assets/css/**/*.{css,css.map}')
     .pipe(gulp.dest(dirs.build + '/assets/css'));
 });
 
 gulp.task('copyJS', function() {
-    return gulp.src(dirs.source + '/assets/js/**/*.js')
+    return gulp.src(dirs.source + '/assets/js/**/*.{js,js.map}')
     .pipe(gulp.dest(dirs.build + '/assets/js'));
 });
 
