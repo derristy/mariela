@@ -115,7 +115,7 @@ gulp.task('svgstore', function (callback) {
         .pipe(gulp.dest(dirs.source + '/assets/img'));
     }
     else {
-        console.log('Нет файлов для сборки SVG-спрайта');
+        console.log('Not found files for build svg sprites');
         callback();
     }
 });
@@ -145,7 +145,7 @@ gulp.task('svgstore', function (callback) {
         .pipe(gulp.dest(dirs.source + '/assets/images'));
     }
     else {
-        console.log('Нет файлов для сборки SVG-спрайта');
+        console.log('Not found files for build svg sprites');
         callback();
     }
 });
@@ -177,11 +177,6 @@ gulp.task('php', function() {
     .pipe(plumber({ errorHandler: onError }))
     .pipe(replace(/\n\s*<!--DEV[\s\S]+?-->/gm, ''))
     .pipe(gulp.dest(dirs.build));
-});
-
-gulp.task('copy-css', function() {
-    return gulp.src(dirs.source + '/css/blueimp-gallery.min.css')
-    .pipe(gulp.dest(dirs.build + '/assets/css'));
 });
 
 gulp.task('build', gulp.series(
